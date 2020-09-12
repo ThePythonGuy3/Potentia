@@ -1,0 +1,11 @@
+.myButton {
+    background:url(../../assets/sprites/ui/eraser.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:32px;
+    height:32px;
+}
+
+.myButton:active {
+     background:url(../../assets/sprites/ui/eraser-pressed.png) no-repeat;
+}
