@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
 
-<input class="eraserButton" type="submit" value="">
-<input class="pencilButton" type="submit" value="">
+<html>
+
+<head>
+
+	<title>Potentia</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="../assets/logo.png">
+
+</head>
+
+<body>
+	<div id = "container">
+		<div id = "side">
+
+			<table id = "buttons">
+
+				<tr><td><button class="pencilButton" type="submit" value=""></tr></td>
+				<tr><td><button class="eraserButton" type="submit" value=""></tr></td>
+				<tr><td><button class="lineButton" type="submit" value=""></tr></td>
+				<tr><td><button class="pickerButton" type="submit" value=""></tr></td>
+				<tr><td><button class="bucketButton" type="submit" value=""></tr></td>
+
+			</table>
+		</div>
+		<div id = "side2">
+			<canvas id="drawPlace" style="border:2px solid #c3c3c3;">
+				Your browser does not support the canvas element.
+			</canvas>
+
+			<script src="js/main.js"></script>
+
+		</div>
+	</div>
 
 </body>
+
 </html>
