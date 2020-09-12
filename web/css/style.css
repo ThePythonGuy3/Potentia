@@ -1,11 +1,3 @@
-body {
-	background-color: #adb0b3
-}
-
-html {
-	background-color: #80858a
-}
-
 .eraserButton {
     background:url(../../assets/sprites/ui/eraser.png) no-repeat;
     cursor:pointer;
@@ -17,4 +9,14 @@ html {
 .eraserButton:active {
      background:url(../../assets/sprites/ui/eraser-pressed.png) no-repeat;
 }
+.pencilButton {
+    background:url(../../assets/sprites/ui/pencil.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:32px;
+    height:32px;
+}
 
+.pencilButton:active {
+     background:url(../../assets/sprites/ui/pencil-pressed.png) no-repeat;
+}
