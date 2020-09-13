@@ -31,7 +31,7 @@ button {
 	justify-content: center;
 	border: 10px solid transparent;
 	padding: 15px;
-	border-image: url(../../assets/sprites/ui/border.png) 30 30 stretch;
+	border-image: url(../assets/sprites/ui/border.png) 30 30 stretch;
 }
 
 #container {
@@ -40,41 +40,41 @@ button {
 }
 
 .pencilButton {
-    background:url(../../assets/sprites/ui/pencil.png) no-repeat;
+    background:url(../assets/sprites/ui/pencil.png) no-repeat;
 }
 
 .pencilButton:active {
-     background:url(../../assets/sprites/ui/pencil-pressed.png) no-repeat;
+     background:url(../assets/sprites/ui/pencil-pressed.png) no-repeat;
 }
 
 .eraserButton {
-    background:url(../../assets/sprites/ui/eraser.png) no-repeat;
+    background:url(../assets/sprites/ui/eraser.png) no-repeat;
 }
 
 .eraserButton:active {
-     background:url(../../assets/sprites/ui/eraser-pressed.png) no-repeat;
+     background:url(../assets/sprites/ui/eraser-pressed.png) no-repeat;
 }
 
 .lineButton {
-    background:url(../../assets/sprites/ui/line.png) no-repeat;
+    background:url(../assets/sprites/ui/line.png) no-repeat;
 }
 
 .lineButton:active {
-     background:url(../../assets/sprites/ui/line-pressed.png) no-repeat;
+     background:url(../assets/sprites/ui/line-pressed.png) no-repeat;
 }
 
 .pickerButton {
-    background:url(../../assets/sprites/ui/picker.png) no-repeat;
+    background:url(../assets/sprites/ui/picker.png) no-repeat;
 }
 
 .pickerButton:active {
-     background:url(../../assets/sprites/ui/picker-pressed.png) no-repeat;
+     background:url(../assets/sprites/ui/picker-pressed.png) no-repeat;
 }
 
 .bucketButton {
-    background:url(../../assets/sprites/ui/bucket.png) no-repeat;
+    background:url(../assets/sprites/ui/bucket.png) no-repeat;
 }
 
 .bucketButton:active {
-     background:url(../../assets/sprites/ui/bucket-pressed.png) no-repeat;
+     background:url(../assets/sprites/ui/bucket-pressed.png) no-repeat;
 }
